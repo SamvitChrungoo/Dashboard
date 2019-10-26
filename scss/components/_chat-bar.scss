@@ -1,0 +1,106 @@
+.chat {
+  display: block;
+  top: 396px;
+  right: -380px;
+  background-color: #fff;
+  line-height: 40px;
+  margin-bottom: 10px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  z-index: 99999;
+  margin-left: -14px;
+  width: 55%;
+  transform: rotate(-90deg);
+  transform-origin: right, top;
+  position: fixed;
+}
+
+#red-dot {
+  color: red;
+  font-size: 8px;
+  position: absolute;
+  right: 82px;
+  top: 4px;
+  z-index: 10000;
+  margin-top: 7px;
+}
+
+.chatpro {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: right;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 25px;
+  transform: rotate(-270deg);
+  transform-origin: right, top;
+  &::after {
+    content: "●";
+    color: #630f0f;
+    position: absolute;
+    left: -34px;
+    top: 2px;
+    font-size: 7px;
+    border-radius: 50%;
+    /* border: 2px solid blue; */
+    z-index: 999;
+  }
+}
+
+#search {
+  border-radius: 20px;
+  background-color: rgb(203, 204, 211);
+  float: right;
+  width: 100px;
+  height: 20px;
+  color: rgb(203, 204, 211);
+  border: 0.5px solid;
+  font-size: 10px;
+  opacity: 0.7;
+  margin-top: 7px;
+}
+
+#dot {
+  color: red;
+  font-size: 8px;
+  position: absolute;
+  right: 90px;
+  top: 1px;
+  z-index: 10000;
+  margin-top: 7px;
+}
+
+#bell {
+  float: right;
+  // position: relative;
+  color: rgb(161, 162, 172);
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+#message {
+  float: right;
+  color: rgb(161, 162, 172);
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#pro {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: right;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+#comm {
+  float: right;
+  color: rgb(161, 162, 172);
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}

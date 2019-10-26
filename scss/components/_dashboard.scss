@@ -1,0 +1,102 @@
+$color: (
+  menu-bar: #333547,
+  back: #e9ebee,
+  card1: #725ca4,
+  card2: #04aee6,
+  card3: #04a598,
+  card4: #ec4562,
+  progress: #626dd4,
+  btn2: #3ac43a,
+  btn3: #ec4562
+);
+
+@function color($color-name) {
+  @return map-get($color, $color-name);
+}
+
+.dash {
+  background-color: color(back);
+  position: relative;
+  padding-bottom: 30px;
+  margin-top: 40px;
+}
+.para {
+  padding: 12px;
+  font-size: 14px;
+}
+
+.date {
+  color: blue;
+  display: block;
+  position: absolute;
+  font-size: 12px;
+  top: 20px;
+  right: 35px;
+}
+
+.welcome {
+  font-size: 12px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  margin-left: 15px;
+}
+
+.card-panel {
+  background-color: color(back);
+  padding-bottom: 30px;
+  max-width: 1180px;
+
+  h6 {
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .card-body {
+    position: relative;
+  }
+  .card {
+    min-height: 125px;
+  }
+  .card1 {
+    background-color: $card1;
+  }
+  .card2 {
+    background-color: $card2;
+  }
+
+  .card3 {
+    background-color: $card3;
+  }
+
+  .card4 {
+    background-color: color(card4);
+  }
+
+  .panel-img {
+    @media screen and (max-width: 575px) {
+      position: absolute;
+      min-width: 75px;
+      height: 60px;
+      right: 20px;
+      top: 20px;
+    }
+
+    position: absolute;
+    min-width: 75px;
+    height: 60px;
+    right: 20px;
+    top: 40px;
+  }
+}
+
+.row-table {
+  background-color: color(back);
+}

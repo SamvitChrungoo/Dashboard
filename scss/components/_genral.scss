@@ -1,0 +1,25 @@
+* {
+  margin-top: -4px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  .row {
+    padding-top: 10px;
+  }
+  .row-dash {
+    padding-left: -10px;
+  }
+
+  html,
+  body {
+    background-color: #fff;
+    font-family: "Padaul", "Arial", sans-serif;
+    font-weight: 30;
+    font-size: 20px;
+  }
+  .main {
+    display: blok;
+  }
+}
